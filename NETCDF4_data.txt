@@ -1,0 +1,207 @@
+<class 'netCDF4._netCDF4.Dataset'>
+root group (NETCDF4 data model, file format HDF5):
+    BeginDate: 2019-01-01
+    BeginTime: 00:00:00.000Z
+    EndDate: 2019-01-01
+    EndTime: 23:59:59.999Z
+    FileHeader: StartGranuleDateTime=2019-01-01T00:00:00.000Z;
+    
+StopGranuleDateTime=2019-01-01T23:59:59.999Z
+    InputPointer: 3B-HHR.MS.MRG.3IMERG.20190101-S000000-E002959.0000.V06B.HDF5;
+    3B-HHR.MS.MRG.3IMERG.20190101-S003000-E005959.0030.V06B.HDF5;
+    3B-HHR.MS.MRG.3IMERG.20190101-S010000-E012959.0060.V06B.HDF5;
+    3B-HHR.MS.MRG.3IMERG.20190101-S013000-E015959.0090.V06B.HDF5;
+    3B-HHR.MS.MRG.3IMERG.20190101-S020000-E022959.0120.V06B.HDF5;
+    3B-HHR.MS.MRG.3IMERG.20190101-S023000-E025959.0150.V06B.HDF5;
+    3B-HHR.MS.MRG.3IMERG.20190101-S030000-E032959.0180.V06B.HDF5;
+    3B-HHR.MS.MRG.3IMERG.20190101-S033000-E035959.0210.V06B.HDF5;
+    3B-HHR.MS.MRG.3IMERG.20190101-S040000-E042959.0240.V06B.HDF5;
+    3B-HHR.MS.MRG.3IMERG.20190101-S043000-E045959.0270.V06B.HDF5;
+    3B-HHR.MS.MRG.3IMERG.20190101-S050000-E052959.0300.V06B.HDF5;
+    3B-HHR.MS.MRG.3IMERG.20190101-S053000-E055959.0330.V06B.HDF5;
+    3B-HHR.MS.MRG.3IMERG.20190101-S060000-E062959.0360.V06B.HDF5;
+    3B-HHR.MS.MRG.3IMERG.20190101-S063000-E065959.0390.V06B.HDF5;
+    3B-HHR.MS.MRG.3IMERG.20190101-S070000-E072959.0420.V06B.HDF5;
+    3B-HHR.MS.MRG.3IMERG.20190101-S073000-E075959.0450.V06B.HDF5;
+    3B-HHR.MS.MRG.3IMERG.20190101-S080000-E082959.0480.V06B.HDF5;
+    3B-HHR.MS.MRG.3IMERG.20190101-S083000-E085959.0510.V06B.HDF5;
+    3B-HHR.MS.MRG.3IMERG.20190101-S090000-E092959.0540.V06B.HDF5;
+    3B-HHR.MS.MRG.3IMERG.20190101-S093000-E095959.0570.V06B.HDF5;
+    3B-HHR.MS.MRG.3IMERG.20190101-S100000-E102959.0600.V06B.HDF5;
+    3B-HHR.MS.MRG.3IMERG.20190101-S103000-E105959.0630.V06B.HDF5;
+    3B-HHR.MS.MRG.3IMERG.20190101-S110000-E112959.0660.V06B.HDF5;
+    3B-HHR.MS.MRG.3IMERG.20190101-S113000-E115959.0690.V06B.HDF5;
+    3B-HHR.MS.MRG.3IMERG.20190101-S120000-E122959.0720.V06B.HDF5;
+    3B-HHR.MS.MRG.3IMERG.20190101-S123000-E125959.0750.V06B.HDF5;
+    3B-HHR.MS.MRG.3IMERG.20190101-S130000-E132959.0780.V06B.HDF5;
+    3B-HHR.MS.MRG.3IMERG.20190101-S133000-E135959.0810.V06B.HDF5;
+    3B-HHR.MS.MRG.3IMERG.20190101-S140000-E142959.0840.V06B.HDF5;
+    3B-HHR.MS.MRG.3IMERG.20190101-S143000-E145959.0870.V06B.HDF5;
+    3B-HHR.MS.MRG.3IMERG.20190101-S150000-E152959.0900.V06B.HDF5;
+    3B-HHR.MS.MRG.3IMERG.20190101-S153000-E155959.0930.V06B.HDF5;
+    3B-HHR.MS.MRG.3IMERG.20190101-S160000-E162959.0960.V06B.HDF5;
+    3B-HHR.MS.MRG.3IMERG.20190101-S163000-E165959.0990.V06B.HDF5;
+    3B-HHR.MS.MRG.3IMERG.20190101-S170000-E172959.1020.V06B.HDF5;
+    3B-HHR.MS22959.1320.V06B.HDF5;
+    3B-HHR.MS.MRG.3IMERG.20190101-S223000-E225959.1350.V06B.HDF5;
+    3B-HHR.MS.MRG.3IMERG.20190101-S230000-E232959.1380.V06B.HDF5;
+    3B-HHR.MS.MRG.3IMERG.20190101-S233000-E235959.1410.V06B.HDF5
+    title: GPM IMERG Final Precipitation L3 1 day 0.1 degree x 0.1 degree (GPM_3IMERGDF)      
+    DOI: 10.5067/GPM/IMERGDF/DAY/06
+    ProductionTime: 2019-06-12T02:40:36.130Z
+    dimensions(sizes): lon(3600), lat(1800), time(1), nv(2)
+    variables(dimensions):  float32 precipitationCal(time, lon, lat),
+                            int8 precipitationCal_cnt(time, lon, lat),
+                            int8 precipitationCal_cnt_cond(time, lon, lat),
+                            float32 HQprecipitation(time, lon, lat),
+                            int8 HQprecipitation_cnt(time, lon, lat),
+                            int8 HQprecipitation_cnt_cond(time, lon, lat),
+                            float32 randomError(time, lon, lat),
+                            int8 randomError_cnt(time, lon, lat),
+                            float32 lon(lon),
+                            float32 lat(lat),
+                            float64 time(time),
+                            float64 time_bnds(time, nv)
+    groups:
+
+
+
+    <class 'netCDF4._netCDF4.Variable'>
+float32 precipitationCal(time, lon, lat)
+    units: mm
+    long_name: Daily accumulated precipitation (combined microwave-IR) estimate
+    coordinates: time lon lat
+    _FillValue: -9999.9
+unlimited dimensions:
+current shape = (1, 3600, 1800)
+filling on
+<class 'netCDF4._netCDF4.Variable'>
+int8 precipitationCal_cnt(time, lon, lat)
+    units: count
+    long_name: Count of all valid half-hourly precipitationCal retrievals for the day
+    coordinates: time lon lat
+unlimited dimensions:
+current shape = (1, 3600, 1800)
+filling on, default _FillValue of -127 ignored
+<class 'netCDF4._netCDF4.Variable'>
+int8 precipitationCal_cnt_cond(time, lon, lat)
+    units: count
+    long_name: Count of valid half-hourly precipitationCal retrievals for the day where precipitation is greater than 0
+    coordinates: time lon lat
+unlimited dimensions:
+current shape = (1, 3600, 1800)
+filling on, default _FillValue of -127 ignored
+<class 'netCDF4._netCDF4.Variable'>
+float32 HQprecipitation(time, lon, lat)
+    units: mm
+    long_name: Daily accumulated High Quality precipitation from all available MW sources
+    coordinates: time lon lat
+    _FillValue: -9999.9
+unlimited dimensions:
+current shape = (1, 3600, 1800)
+filling on
+<class 'netCDF4._netCDF4.Variable'>
+int8 HQprecipitation_cnt(time, lon, lat)
+    units: count
+    long_name: Count of all valid half-hourly HQprecipitation retrievals for the day
+    coordinates: time lon lat
+unlimited dimensions:
+current shape = (1, 3600, 1800)
+filling on, default _FillValue of -127 ignored
+<class 'netCDF4._netCDF4.Variable'>
+int8 HQprecipitation_cnt_cond(time, lon, lat)
+    units: count
+    long_name: Count of valid half-hourly HQprecipitation retrievals for the day where precipitation is greater than 0
+    coordinates: time lon lat
+unlimited dimensions:
+current shape = (1, 3600, 1800)
+filling on, default _FillValue of -127 ignored
+<class 'netCDF4._netCDF4.Variable'>
+float32 randomError(time, lon, lat)
+    units: mm
+    long_name: Daily total error of precipitation estimate
+    coordinates: time lon lat
+    _FillValue: -9999.9
+unlimited dimensions:
+current shape = (1, 3600, 1800)
+filling on
+<class 'netCDF4._netCDF4.Variable'>
+int8 randomError_cnt(time, lon, lat)
+    units: count
+    long_name: Count of valid half-hourly randomError retrievals for the day
+    coordinates: time lon lat
+unlimited dimensions:
+current shape = (1, 3600, 1800)
+filling on, default _FillValue of -127 ignored
+<class 'netCDF4._netCDF4.Variable'>
+float32 lon(lon)
+    units: degrees_east
+    long_name: Longitude
+unlimited dimensions:
+current shape = (3600,)
+filling on, default _FillValue of 9.969209968386869e+36 used
+<class 'netCDF4._netCDF4.Variable'>
+float32 lat(lat)
+    units: degrees_north
+    long_name: Latitude
+unlimited dimensions:
+current shape = (1800,)
+filling on, default _FillValue of 9.969209968386869e+36 used
+<class 'netCDF4._netCDF4.Variable'>
+float64 time(time)
+    units: days since 1970-01-01 00:00:00Z
+    standard_name: time
+    calendar: julian
+    bounds: time_bnds
+unlimited dimensions:
+current shape = (1,)
+filling on, default _FillValue of 9.969209968386869e+36 used
+<class 'netCDF4._netCDF4.Variable'>
+float64 time_bnds(time, nv)
+    units: days since 1970-01-01 00:00:00Z
+    coordinates: time nv
+unlimited dimensions:
+current shape = (1, 2)
+filling on, default _FillValue of 9.969209968386869e+36 used
+
+
+
+
+
+
+
+
+
+
+float32 precipitationCal(time, lon, lat)
+    units: mm
+    long_name: Daily accumulated precipitation (combined microwave-IR) estimate
+
+int8 precipitationCal_cnt(time, lon, lat)
+    units: count
+    long_name: Count of all valid half-hourly precipitationCal retrievals for the day
+   
+int8 precipitationCal_cnt_cond(time, lon, lat)
+    units: count
+    long_name: Count of valid half-hourly precipitationCal retrievals for the day where precipitation is greater than 0
+ 
+float32 HQprecipitation(time, lon, lat)
+    units: mm
+    long_name: Daily accumulated High Quality precipitation from all available MW sources
+    
+int8 HQprecipitation_cnt(time, lon, lat)
+    units: count
+    long_name: Count of all valid half-hourly HQprecipitation retrievals for the day
+    
+int8 HQprecipitation_cnt_cond(time, lon, lat)
+    units: count
+    long_name: Count of valid half-hourly HQprecipitation retrievals for the day where precipitation is greater than 0
+
+float32 randomError(time, lon, lat)
+    units: mm
+    long_name: Daily total error of precipitation estimate
+
+int8 randomError_cnt(time, lon, lat)
+    units: count
+    long_name: Count of valid half-hourly randomError retrievals for the day
+

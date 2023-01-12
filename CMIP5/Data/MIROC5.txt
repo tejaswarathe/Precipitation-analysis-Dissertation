@@ -1,0 +1,57 @@
+{'time': <class 'netCDF4._netCDF4.Variable'>
+float64 time(time)
+    bounds: time_bnds
+    units: days since 1850-1-1
+    calendar: noleap
+    axis: T
+    long_name: time
+    standard_name: time
+unlimited dimensions: time
+current shape = (3650,)
+filling on, default _FillValue of 9.969209968386869e+36 used, 'time_bnds': <class 'netCDF4._netCDF4.Variable'>
+float64 time_bnds(time, bnds)
+unlimited dimensions: time
+current shape = (3650, 2)
+filling on, default _FillValue of 9.969209968386869e+36 used, 'lat': <class 'netCDF4._netCDF4.Variable'>
+float64 lat(lat)
+    bounds: lat_bnds
+    units: degrees_north
+    axis: Y
+    long_name: latitude
+    standard_name: latitude
+unlimited dimensions: 
+current shape = (128,)
+filling on, default _FillValue of 9.969209968386869e+36 used, 'lat_bnds': <class 'netCDF4._netCDF4.Variable'>
+float64 lat_bnds(lat, bnds)
+unlimited dimensions: 
+current shape = (128, 2)
+filling on, default _FillValue of 9.969209968386869e+36 used, 'lon': <class 'netCDF4._netCDF4.Variable'>
+float64 lon(lon)
+    bounds: lon_bnds
+    units: degrees_east
+    axis: X
+    long_name: longitude
+    standard_name: longitude
+unlimited dimensions: 
+current shape = (256,)
+filling on, default _FillValue of 9.969209968386869e+36 used, 'lon_bnds': <class 'netCDF4._netCDF4.Variable'>
+float64 lon_bnds(lon, bnds)
+unlimited dimensions: 
+current shape = (256, 2)
+filling on, default _FillValue of 9.969209968386869e+36 used, 'pr': <class 'netCDF4._netCDF4.Variable'>
+float32 pr(time, lat, lon)
+    standard_name: precipitation_flux
+    long_name: Precipitation
+    comment: at surface; includes both liquid and solid phases from all types of clouds (both large-scale and convective)
+    units: kg m-2 s-1
+    original_name: PRCP
+    original_units: kg/m**2/s
+    history: 2011-09-27T02:02:27Z altered by CMOR: Converted units from 'kg/m**2/s' to 'kg m-2 s-1'. 2011-09-27T02:02:27Z altered by CMOR: replaced missing value flag (-999) with standard missing value (1e+20). 2011-09-27T02:02:27Z altered by CMOR: Inverted axis: lat.
+    cell_methods: time: mean
+    cell_measures: area: areacella
+    missing_value: 1e+20
+    _FillValue: 1e+20
+    associated_files: baseURL: http://cmip-pcmdi.llnl.gov/CMIP5/dataLocation gridspecFile: gridspec_atmos_fx_MIROC5_rcp85_r0i0p0.nc areacella: areacella_fx_MIROC5_rcp85_r0i0p0.nc
+unlimited dimensions: time
+current shape = (3650, 128, 256)
+filling on}
